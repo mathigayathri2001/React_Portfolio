@@ -31,25 +31,25 @@ function About() {
                         alt="Gayathiri"
                       />
                       <p className=" intro ">
-                        I have completed Bachelor degree in Commerce. Working as
-                        a self employed accounting clerk. Currently pursing
+                        My name is Gayathiri Ramamoorthy and I am an Ottawa based Full Stack Developer.
+                        I completed Bachelor degree in Commerce. Working as
+                        a self employed accounting clerk. I am currently pursing
                         Bootcamp Full Stack Web Developer Certificate course in
                         Carleton University. I am learning valuable programming
                         skills in full stack Web development technology, aquired
                         skills to plan, track, manage projects in agile
-                        development environment and deploy applications in the
-                        landscapes.{" "}
+                        development environment and deploy applications.{" "}
                       </p>
                       <p className="skills"> Technical Skills:</p>
                       <ul>
                         <li>
-                          <strong>Languages:</strong> JavaScript, JQuery,
-                          Node.js, HTML5, CSS, MYSQL
+                          <strong>Client:</strong> HTML5, CSS3, Bootstrap, Skeleton, Bulma, JavaScript(ES6+), Jquery
                         </li>
                         <li>
-                          <strong>Technologies:</strong> GitHub, Gitbash, Boot
-                          Strap CSS Framework, Skeleton CSS Framework, Bulma CSS
-                          Framework. Sequelize, Passport authentication, HeroKU
+                          <strong>Server:</strong> Node, Express, ReactJS, Handlebars, Sequelize, Mongoose, ORM, RESTful APIs and Passport
+                        </li>
+                        <li>
+                          <strong>Technologies:</strong> GitHub, Gitbash, HeroKU
                         </li>
                         <li>
                           <strong>Database:</strong> MySQL, Mongo DB

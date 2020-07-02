@@ -10,6 +10,7 @@
 h4{
   color:rgb(12, 77, 25);
   font-weight: bold; 
+  font-size: 2rem;
 }
 
   #Header a:hover{
@@ -18,7 +19,8 @@ h4{
 }
 /* styling for the main page */
 .background{
-    background-image: url('./img/bg2.jpg');    
+    background-image: url('./img/bg2.jpg'); 
+   
   } 
 
   .About h3{
@@ -189,8 +191,8 @@ span{
 }
 
 .item p{
-
   color: #aaceb9;
+  font-size:20px ;
 
 }
 .item .inner{

@@ -1,6 +1,7 @@
 # React_Portfolio
 
 ### Deployed URL:
+https://mathigayathri2001.github.io/React_Portfolio/
 
 
 ## Badges
