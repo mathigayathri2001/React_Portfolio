@@ -9,6 +9,8 @@ import Navbar from '../components/Navbar'
 
 import mealprepbuddy from "../img/mealprepbuddy.jpg";
 import spamcalltracker from "../img/spamcalltracker.jpg";
+import weatherdashboard from "../img/HW1.jpg";
+import sechedularevent from "../img/HW2.jpg";
 
 
 
@@ -71,6 +73,60 @@ function Project() {
                   <p>
                     <a
                       href="https://spamnumbertracker.herokuapp.com/"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <p>This website will be used to search the current weather and five day forecast weather for the given city by the user.</p>
+                <img src={weatherdashboard} alt="weatherdashboard" />
+                <div class="overlay">
+                  <h4>weatherdashboard</h4>
+                  <p>
+                    <a
+                      href="https://github.com/mathigayathri2001/Weatherdashboard"
+                      target="_blank"  rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <FaGithub />
+                      Github{" "}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://mathigayathri2001.github.io/Weatherdashboard/"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <p>This website will be used to schedule the daily events between 8 am to 5pm.</p>
+                <img src={sechedularevent} alt="sechedularevent" />
+                <div class="overlay">
+                  <h4>schedular event</h4>
+                  <p>
+                    <a
+                      href="https://github.com/mathigayathri2001/scheduler-event"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <FaGithub />
+                      Github{" "}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://mathigayathri2001.github.io/scheduler-event/"
                       target="_blank" rel='noopener noreferrer'
                     >
                       ViewWebsite
