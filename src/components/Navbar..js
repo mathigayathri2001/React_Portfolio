@@ -7,7 +7,6 @@ function Navbar() {
     <div id="Header">
       <nav className="navbar navbar-expand-lg fixed-top">
         <h4>Gayathiri Ramamoorthy</h4>
-
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link to="/" className="nav-link">
