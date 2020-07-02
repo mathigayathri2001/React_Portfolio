@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
-
+// images for all projects
 import mealprepbuddy from "../img/mealprepbuddy.jpg";
 import spamcalltracker from "../img/spamcalltracker.jpg";
 import weatherdashboard from "../img/HW1.jpg";

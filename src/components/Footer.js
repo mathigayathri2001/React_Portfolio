@@ -6,7 +6,7 @@ function Footer() {
     <div>
       <footer className="footer">
         <Container>
-          <span className="text-muted text-center"> &copy Copyright 2020.</span>
+          <span className="text-muted text-center"> &copy; Copyright 2020.</span>
         </Container>
       </footer>
     </div>

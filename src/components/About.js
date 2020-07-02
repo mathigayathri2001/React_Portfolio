@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
- import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 import Gayathiri from "../img/about_1.jpg";
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'

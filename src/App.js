@@ -6,7 +6,7 @@ import Project from "./pages/Project";
 function App() {
   return (
     <Router>
-      <div>g      
+      <div>    
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/About" component={Home} />

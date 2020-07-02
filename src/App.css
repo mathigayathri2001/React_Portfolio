@@ -63,6 +63,7 @@ strong{
 li{
     font-style: italic;
     font-size: 20px;
+    font-weight: bold;
 }
 
 /* styling for the icor bar */
@@ -218,6 +219,11 @@ span{
   opacity: 0;
   transition: all .5s ease;
   
+}
+
+.item a {
+  color: #2a94c5;
+  font-size: 20px;
 }
 
  .portfolio-gallery .item:hover .overlay{
