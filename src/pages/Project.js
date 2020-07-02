@@ -11,6 +11,8 @@ import mealprepbuddy from "../img/mealprepbuddy.jpg";
 import spamcalltracker from "../img/spamcalltracker.jpg";
 import weatherdashboard from "../img/HW1.jpg";
 import sechedularevent from "../img/HW2.jpg";
+import employee from "../img/employee.jpg";
+import burger from "../img/burger.jpg";
 
 
 
@@ -127,6 +129,60 @@ function Project() {
                   <p>
                     <a
                       href="https://mathigayathri2001.github.io/scheduler-event/"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <p>This is a command line application that acts as a Content Management System for an employee database. It allows users to view, add, update and delete employees, roles and departments.</p>
+                <img src={employee} alt="employee" />
+                <div class="overlay">
+                  <h4>Employee Tracker</h4>
+                  <p>
+                    <a
+                      href="https://github.com/mathigayathri2001/Employee_tracker"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <FaGithub />
+                      Github{" "}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <p>This full stack MVC Burger application use to make a burger to eat in a queue and remove it once it is eaten.</p>
+                <img src={burger} alt="burger" />
+                <div class="overlay">
+                  <h4>Eat-da-burger</h4>
+                  <p>
+                    <a
+                      href="https://github.com/mathigayathri2001/burger_app"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <FaGithub />
+                      Github{" "}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://whispering-beyond-14560.herokuapp.com/"
                       target="_blank" rel='noopener noreferrer'
                     >
                       ViewWebsite
