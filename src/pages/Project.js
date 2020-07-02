@@ -8,6 +8,7 @@ import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 
 import mealprepbuddy from "../img/mealprepbuddy.jpg";
+import spamcalltracker from "../img/spamcalltracker.jpg";
 
 
 
@@ -51,6 +52,34 @@ function Project() {
                   </div>
                 </div>
               </div>
+              <div class="item">
+              <div class="inner">
+                <p>An application that hosts a database service for users to report spam calls received on their phones.The database would serve as a central repository to hold list of spam numbers.</p>
+                <img src={spamcalltracker} alt="spamcalltracker" />
+                <div class="overlay">
+                  <h4>spamcalltracker</h4>
+                  <p>
+                    <a
+                      href="https://github.com/mathigayathri2001/Group-Project2"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <FaGithub />
+                      Github{" "}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://spamnumbertracker.herokuapp.com/"
+                      target="_blank" rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+              
               </div>
         </div>
           <Contact />
