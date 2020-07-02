@@ -8,9 +8,9 @@ function App() {
     <Router>
       <div>    
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/About" component={Home} />
-          <Route exact path="/Project" component={Project} />
+          <Route exact path="/React_Portfolio" component={Home} />
+          <Route exact path="/React_Portfolio/About" component={Home} />
+          <Route exact path="/React_Portfolio/Project" component={Project} />
         </Switch>
       </div>
     </Router>

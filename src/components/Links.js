@@ -9,7 +9,7 @@ function Links() {
     <div>
       <div className="icon-bar">
         <h5 id="link">Links</h5>
-        <Link className="active" to="/">
+        <Link className="active" to="/React_Portfolio">
           <FaHome />
         </Link>
         <a
