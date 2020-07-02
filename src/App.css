@@ -136,9 +136,9 @@ span{
  
 }
  
-
+/* styling for the projects page */
  .projects{
-   margin-top: 65px;  
+   margin-top: 40px;  
   text-align: center;
   /* border-bottom: 5px solid #4f6d09;  */
   
@@ -224,8 +224,6 @@ span{
   opacity: 1;
 }
 
-
-
 .item .overlay h4{
   margin-top: 15px;
   font-size: 25px;
@@ -238,7 +236,7 @@ span{
   animation: galleryText .8s ease;  
 }
 
-
+/* styling for responsive  */
 
 @media (max-width: 365px){
   .About h3{
@@ -266,7 +264,7 @@ span{
 
 @media (max-width: 575px){
   .About h3{
-    margin-top: 200px;
+    margin-top: 170px;
 
   }
   .projects h1{
@@ -311,7 +309,7 @@ span{
 
 @media (max-width: 760px){
   .About h3{
-    margin-top: 170px;
+    margin-top: 150px;
 
   }
   
@@ -343,7 +341,7 @@ span{
 }
 @media (max-width: 990px){
   .About h3{
-    margin-top: 170px;
+    margin-top: 200px;
 
   }
     .item{

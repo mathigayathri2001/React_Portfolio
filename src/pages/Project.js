@@ -27,14 +27,14 @@ function Project() {
         </div>
         <div className="row">
           <div className="portfolio-gallery">
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   MealPrep is a responsive app that suggest meal plans to users
                   for a selected location based on a five-day weather forecast.
                 </p>
                 <img src={mealprepbuddy} alt="mealprepbuddy" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>MealPreapBuddy</h4>
                   <p>
                     <a
@@ -59,15 +59,15 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   An application that hosts a database service for users to
                   report spam calls received on their phones.The database would
                   serve as a central repository to hold list of spam numbers.
                 </p>
                 <img src={spamcalltracker} alt="spamcalltracker" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>spamcalltracker</h4>
                   <p>
                     <a
@@ -92,14 +92,14 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   This website will be used to search the current weather and
                   five day forecast weather for the given city by the user.
                 </p>
                 <img src={weatherdashboard} alt="weatherdashboard" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>weatherdashboard</h4>
                   <p>
                     <a
@@ -124,14 +124,14 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   This website will be used to schedule the daily events between
                   8 am to 5pm.
                 </p>
                 <img src={sechedularevent} alt="sechedularevent" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>schedular event</h4>
                   <p>
                     <a
@@ -156,15 +156,15 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   This is a command line application that acts as a Content
                   Management System for an employee database. It allows users to
                   view, add, update and delete employees, roles and departments.
                 </p>
                 <img src={employee} alt="employee" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>Employee Tracker</h4>
                   <p>
                     <a
@@ -189,14 +189,14 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="inner">
+            <div className="item">
+              <div className="inner">
                 <p>
                   This full stack MVC Burger application use to make a burger to
                   eat in a queue and remove it once it is eaten.
                 </p>
                 <img src={burger} alt="burger" />
-                <div class="overlay">
+                <div className="overlay">
                   <h4>Eat-da-burger</h4>
                   <p>
                     <a
