@@ -43,10 +43,10 @@ function About() {
                       <p className="skills"> Technical Skills:</p>
                       <ul>
                         <li>
-                          <strong>Client:</strong> HTML5, CSS3, Bootstrap, Skeleton, Bulma, JavaScript(ES6+), Jquery
+                          <strong>Client:</strong> HTML5, CSS3, Bootstrap, Skeleton, Bulma, JavaScript(ES6+), Jquery,ReactJS
                         </li>
                         <li>
-                          <strong>Server:</strong> Node, Express, ReactJS, Handlebars, Sequelize, Mongoose, ORM, RESTful APIs and Passport
+                          <strong>Server:</strong> Node, Express,  Handlebars, Sequelize, Mongoose, ORM, RESTful APIs and Passport
                         </li>
                         <li>
                           <strong>Technologies:</strong> GitHub, Gitbash, HeroKU
