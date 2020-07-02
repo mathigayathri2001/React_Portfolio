@@ -3,7 +3,7 @@ import Container from "../components/Container";
 // import Footer from "../components/Footer";
 import Gayathiri from "../img/about_1.jpg";
 import Navbar from "../components/Navbar";
-// import Contact from "../components/Contact";
+import Contact from "../components/Contact";
 import "../App.css";
 
 const introImage = {
@@ -61,7 +61,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-                {/* <Contact /> */}
+                <Contact />
               </div>
             </div>
           </div>
