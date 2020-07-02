@@ -32,6 +32,8 @@ function Project() {
                 <p>
                   MealPrep is a responsive app that suggest meal plans to users
                   for a selected location based on a five-day weather forecast.
+                  This app use external API to get the live weather data from OpenWeatherMap 
+                  and Spoonacular API to get receipe and ingridents.
                 </p>
                 <img src={mealprepbuddy} alt="mealprepbuddy" />
                 <div className="overlay">
@@ -96,7 +98,8 @@ function Project() {
               <div className="inner">
                 <p>
                   This website will be used to search the current weather and
-                  five day forecast weather for the given city by the user.
+                  five day forecast weather for the given city by the user. This website uses external API to 
+                  get the live weather data from OpenWeatherMap.
                 </p>
                 <img src={weatherdashboard} alt="weatherdashboard" />
                 <div className="overlay">
@@ -127,8 +130,8 @@ function Project() {
             <div className="item">
               <div className="inner">
                 <p>
-                  This website will be used to schedule the daily events between
-                  8 am to 5pm.
+                  This website will be used to schedule the daily events between 8 am to 5pm. Event information will be stored in the local storage. When the page reloaded, previous stored local storage information will be get and stored in the event slots.
+
                 </p>
                 <img src={sechedularevent} alt="sechedularevent" />
                 <div className="overlay">
@@ -193,7 +196,7 @@ function Project() {
               <div className="inner">
                 <p>
                   This full stack MVC Burger application use to make a burger to
-                  eat in a queue and remove it once it is eaten.
+                  eat in a queue and remove it once it is eaten. This application uses Express, Express-Handlebars, MySQL2, HTML,Javascript, Node.js and deployed in Heroku.
                 </p>
                 <img src={burger} alt="burger" />
                 <div className="overlay">
