@@ -16,7 +16,7 @@ function About() {
     <div>
     < Navbar />
       <Container>
-        <div className="About">
+        <div id="About">
           <div className="row ">
             <div className="col">
               <h3>About Me</h3>

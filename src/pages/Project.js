@@ -20,7 +20,7 @@ function Project() {
       <Navbar />
       <Links />
       <Container>
-        <div className="projects">
+        <div id="projects">
           <div className=" p-5 text-white">
             <h1>Projects</h1>
           </div>

@@ -4,7 +4,7 @@
   }
   .nav-link{
     color:rgb(12, 77, 25);
-    font-size: 28px;
+    font-size: 26px;
     font-style: oblique;
     text-decoration: underline;
   }
@@ -25,7 +25,7 @@ h4{
    
   } 
 
-  .About h3{
+  #About h3{
     color: #ffffff;
     margin-top: 100px;
     width: fit-content;
@@ -101,7 +101,7 @@ li{
     border-radius: 0px 0px 15px 0px;
     }
   
-  .active {
+  .Active {
     background-color: rgb(128, 177, 138);
     border-radius: 0px 15px 0px 0px;
   }
@@ -138,11 +138,16 @@ span{
   text-align: center;
   color: #ffffff;
   background-color:black;
+  /* padding-top: '2rem';
+  padding-bottom: '2rem';
+  margin-bottom: '0';
+  margin-top: 370px; */
+/* position: absolute; */
  
 }
  
 /* styling for the projects page */
- .projects{
+ #projects{
    margin-top: 40px;  
   text-align: center;
   /* border-bottom: 5px solid #4f6d09;  */
@@ -150,7 +155,7 @@ span{
 
 }
 
- .projects h1 { 
+ #projects h1 { 
   border-bottom: 5px solid #4f6d09; 
   width: fit-content;  
   text-align: center;
@@ -248,24 +253,29 @@ span{
 
 /* styling for responsive  */
 
-@media (max-width: 365px){
-  .About h3{
-    margin-top: 200px;
+@media (max-width: 385px){
+/* .navbar{
+  padding:1.2rem;
+} */
 
+  #About h3{
+    margin-top: 250px;
   }
-    
+  .nav-link{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 28px;
+  }
   .card{
       width: 100%;
-      font-size: 0rem;
-        
+      font-size: 0rem;       
   } 
- 
-
   #contact .card-footer{
       width:100%;
       padding:0
   }
-  .projects h1{
+  #projects h1{
     margin-top: 100px;
   }
 } 
@@ -273,12 +283,12 @@ span{
 
 
 @media (max-width: 575px){
-  .About h3{
-    margin-top: 170px;
+  #About h3{
+    margin-top: 200px;
 
   }
-  .projects h1{
-    margin-top: 100px;
+  #projects h1{
+    margin-top: 150px;
   }
  
   .card{
@@ -303,26 +313,14 @@ span{
   
 } 
 
-
-
-@keyframes galleryText{
-  0%{
-      transform: translateY(20px);opacity:0;
-  }
-  100%{
-      transform: translateY(0);opacity:1;
-  }
-}
-
-
-
-
 @media (max-width: 760px){
-  .About h3{
+  #About h3{
     margin-top: 150px;
 
   }
-  
+  #projects h1{
+    margin-top: 150px;
+  }
   .card{
       width: 100%;
       font-size: 0rem;
@@ -341,18 +339,24 @@ span{
   
 } 
 
-@media (max-width: 500px){
+ @media (max-width: 500px){
    
    .item{
   
       max-width: 100%;
       
   }
-}
+} 
 @media (max-width: 990px){
-  .About h3{
+  #About h3{
     margin-top: 200px;
-
+  }
+ 
+  .navbar{
+    flex-wrap: nowrap;
+  }
+  #projects h1{
+    margin-top: 90px;
   }
     .item{
       flex: 0 0 100%; 
@@ -360,4 +364,34 @@ span{
       position: relative;
       padding: 8px;
     }
+
+    
 }  
+
+@media (max-width: 1200px){
+.background{
+  min-height: 100vh;
+}
+
+.footer{
+  
+  padding-top: '2rem';
+  padding-bottom: '2rem';
+  margin-bottom: '0';
+  margin-top: 370px;
+/* position: absolute;  */
+ 
+} 
+ 
+}
+
+
+
+@keyframes galleryText{
+  0%{
+      transform: translateY(20px);opacity:0;
+  }
+  100%{
+      transform: translateY(0);opacity:1;
+  }
+}
