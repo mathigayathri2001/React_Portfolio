@@ -36,11 +36,7 @@ This project is developed in React.js, which describes about my portfolio, skill
 
 
 ## Visuals
-![](img/pic.jpg)
-![](img/pic2.jpg)
-![](img/pic3.jpg)
-![](img/pic4.jpg)
-![](img/pic5.jpg)
+![](Demo/demo.gif)
 
 
 ## License

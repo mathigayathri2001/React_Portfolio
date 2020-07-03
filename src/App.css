@@ -43,10 +43,13 @@ h4{
 
   .card{
      margin-top: 20px;
+     /* box-shadow: 0 0 5px white; */
+   
     
   }
   .card-body{
       background-color:rgb(245, 248, 248);
+     
   }
 
   .intro{
@@ -189,7 +192,7 @@ span{
   width: 100%;
   /* max-width: 400px;  */
   height: auto;
-  box-shadow: 0 0 5px rgb(207, 201, 201);
+  box-shadow: 0 0 10px rgb(207, 201, 201);
   /* box-shadow: 0 0 10px  #4f6d09; */
   word-wrap: break-word;
   margin-left: 10px;
