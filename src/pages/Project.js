@@ -11,6 +11,7 @@ import mealprepbuddy from "../img/mealprepbuddy.jpg";
 import spamcalltracker from "../img/spamcalltracker.jpg";
 import weatherdashboard from "../img/HW1.jpg";
 import sechedularevent from "../img/HW2.jpg";
+import googleBooks from "../img/img.png";
 import employee from "../img/employee.jpg";
 import burger from "../img/burger.jpg";
 
@@ -130,15 +131,15 @@ function Project() {
             <div className="item">
               <div className="inner">
                 <p>
-                  This website will be used to schedule the daily events between 8 am to 5pm. Event information will be stored in the local storage. When the page reloaded, previous stored local storage information will be get and stored in the event slots.
+                This is full MERN stack application retrieving books from the google book api based on user search, also results can be saved and used to later to buy it.
 
                 </p>
-                <img src={sechedularevent} alt="sechedularevent" />
+                <img src={googleBooks} alt="sechedularevent" />
                 <div className="overlay">
-                  <h4>schedular event</h4>
+                  <h4>Google book search</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/scheduler-event"
+                      href="https://github.com/mathigayathri2001/Google_books"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -149,7 +150,7 @@ function Project() {
                   </p>
                   <p>
                     <a
-                      href="https://mathigayathri2001.github.io/scheduler-event/"
+                      href="https://protected-bayou-45309.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
