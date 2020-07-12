@@ -134,7 +134,7 @@ function Project() {
                 This is full MERN stack application retrieving books from the google book api based on user search, also results can be saved and used to later to buy it.
 
                 </p>
-                <img src={googleBooks} alt="sechedularevent" />
+                <img src={googleBooks} alt="book" />
                 <div className="overlay">
                   <h4>Google book search</h4>
                   <p>
