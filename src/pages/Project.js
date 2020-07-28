@@ -1,60 +1,59 @@
-import React from "react";
-import "../App.css";
-import Links from "../components/Links";
-import Container from "../components/Container";
-import { FaGithub } from "react-icons/fa";
-import Footer from "../components/Footer";
-import Contact from "../components/Contact";
-import Navbar from "../components/Navbar";
+import React from 'react'
+import '../App.css'
+import Links from '../components/Links'
+import Container from '../components/Container'
+import { FaGithub } from 'react-icons/fa'
+import Footer from '../components/Footer'
+import Contact from '../components/Contact'
+import Navbar from '../components/Navbar'
+import Projects from '../components/Projects'
 // images for all projects
-import mealprepbuddy from "../img/mealprepbuddy.jpg";
-import spamcalltracker from "../img/spamcalltracker.jpg";
-import weatherdashboard from "../img/HW1.jpg";
-import sechedularevent from "../img/HW2.jpg";
-import googleBooks from "../img/img.png";
-import employee from "../img/employee.jpg";
-import burger from "../img/burger.jpg";
+import mealprepbuddy from '../img/mealprepbuddy.jpg'
+import spamcalltracker from '../img/spamcalltracker.jpg'
+import handyman from '../img/handyman.png'
+import googleBooks from '../img/img.png'
+import employee from '../img/employee.jpg'
+import burger from '../img/burger.jpg'
 
-function Project() {
+function Project () {
   return (
-    <div className="background">
+    <div className='background'>
       <Navbar />
       <Links />
       <Container>
-        <div id="projects">
-          <div className=" p-5 text-white">
+        <div id='projects'>
+          <div className=' p-5 text-white'>
             <h1>Projects</h1>
           </div>
         </div>
-        <div className="row">
-          <div className="portfolio-gallery">
-            <div className="item">
-              <div className="inner">
+        <div className='row'>
+          <div className='portfolio-gallery'>
+            <div className='item'>
+              <div className='inner'>
                 <p>
-                  MealPrep is a responsive app that suggest meal plans to users
-                  for a selected location based on a five-day weather forecast.
-                  This app use external API to get the live weather data from OpenWeatherMap 
-                  and Spoonacular API to get receipe and ingridents.
+                  The application has been designed and implemented as a
+                  fullstack JavaScript development project which utilizes
+                  MongoDB, Express, React, and Node.js (MERN).
                 </p>
-                <img src={mealprepbuddy} alt="mealprepbuddy" />
-                <div className="overlay">
-                  <h4>MealPreapBuddy</h4>
+                <Projects imageURL={handyman} alternate='handyman'></Projects>
+                <div className='overlay'>
+                  <h4>U-Break-We-Fix</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/Project-1"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://github.com/mathigayathri2001/U-break-WE-fix'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      {" "}
+                      {' '}
                       <FaGithub />
-                      Github{" "}
+                      Github{' '}
                     </a>
                   </p>
                   <p>
                     <a
-                      href="https://petertyliu.github.io/Project-1/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://still-depths-30514.herokuapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       ViewWebsite
                     </a>
@@ -62,32 +61,35 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="item">
-              <div className="inner">
+            <div className='item'>
+              <div className='inner'>
                 <p>
                   An application that hosts a database service for users to
                   report spam calls received on their phones.The database would
                   serve as a central repository to hold list of spam numbers.
                 </p>
-                <img src={spamcalltracker} alt="spamcalltracker" />
-                <div className="overlay">
+                <Projects
+                  imageURL={spamcalltracker}
+                  alternate='spamcalltracker'
+                ></Projects>
+                <div className='overlay'>
                   <h4>spamcalltracker</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/Group-Project2"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://github.com/mathigayathri2001/Group-Project2'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      {" "}
+                      {' '}
                       <FaGithub />
-                      Github{" "}
+                      Github{' '}
                     </a>
                   </p>
                   <p>
                     <a
-                      href="https://spamnumbertracker.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://spamnumbertracker.herokuapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       ViewWebsite
                     </a>
@@ -95,64 +97,75 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="item">
-              <div className="inner">
-                <p>
-                  This website will be used to search the current weather and
-                  five day forecast weather for the given city by the user. This website uses external API to 
-                  get the live weather data from OpenWeatherMap.
-                </p>
-                <img src={weatherdashboard} alt="weatherdashboard" />
-                <div className="overlay">
-                  <h4>weatherdashboard</h4>
-                  <p>
-                    <a
-                      href="https://github.com/mathigayathri2001/Weatherdashboard"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      <FaGithub />
-                      Github{" "}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://mathigayathri2001.github.io/Weatherdashboard/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="inner">
-                <p>
-                This is full MERN stack application retrieving books from the google book api based on user search, also results can be saved and used to later to buy it.
 
+            <div className='item'>
+              <div className='inner'>
+                <p>
+                  MealPrep is a responsive app that suggest meal plans to users
+                  for a selected location based on a five-day weather forecast.
+                  This app use external API to get the live weather data from
+                  OpenWeatherMap and Spoonacular API to get receipe and
+                  ingridents.
                 </p>
-                <img src={googleBooks} alt="book" />
-                <div className="overlay">
+                <Projects
+                  imageURL={mealprepbuddy}
+                  alternate='mealprepbuddy'
+                ></Projects>
+                <div className='overlay'>
+                  <h4>MealPreapBuddy</h4>
+                  <p>
+                    <a
+                      href='https://github.com/mathigayathri2001/Project-1'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      {' '}
+                      <FaGithub />
+                      Github{' '}
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href='https://petertyliu.github.io/Project-1/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      ViewWebsite
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className='item'>
+              <div className='inner'>
+                <p>
+                  This is full MERN stack application retrieving books from the
+                  google book api based on user search, also results can be
+                  saved and used to later to buy it.
+                </p>
+                <Projects
+                  imageURL={googleBooks}
+                  alternate='googleBooks'
+                ></Projects>
+                <div className='overlay'>
                   <h4>Google book search</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/Google_books"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://github.com/mathigayathri2001/Google_books'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      {" "}
+                      {' '}
                       <FaGithub />
-                      Github{" "}
+                      Github{' '}
                     </a>
                   </p>
                   <p>
                     <a
-                      href="https://protected-bayou-45309.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://protected-bayou-45309.herokuapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       ViewWebsite
                     </a>
@@ -160,32 +173,32 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="item">
-              <div className="inner">
+            <div className='item'>
+              <div className='inner'>
                 <p>
                   This is a command line application that acts as a Content
                   Management System for an employee database. It allows users to
                   view, add, update and delete employees, roles and departments.
                 </p>
-                <img src={employee} alt="employee" />
-                <div className="overlay">
+                <Projects imageURL={employee} alternate='employee'></Projects>
+                <div className='overlay'>
                   <h4>Employee Tracker</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/Employee_tracker"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://github.com/mathigayathri2001/Employee_tracker'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      {" "}
+                      {' '}
                       <FaGithub />
-                      Github{" "}
+                      Github{' '}
                     </a>
                   </p>
                   <p>
                     <a
-                      href="https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       ViewWebsite
                     </a>
@@ -193,31 +206,33 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="item">
-              <div className="inner">
+            <div className='item'>
+              <div className='inner'>
                 <p>
                   This full stack MVC Burger application use to make a burger to
-                  eat in a queue and remove it once it is eaten. This application uses Express, Express-Handlebars, MySQL2, HTML,Javascript, Node.js and deployed in Heroku.
+                  eat in a queue and remove it once it is eaten. This
+                  application uses Express, Express-Handlebars, MySQL2,
+                  HTML,Javascript, Node.js and deployed in Heroku.
                 </p>
-                <img src={burger} alt="burger" />
-                <div className="overlay">
+                <Projects imageURL={burger} alternate='burger'></Projects>
+                <div className='overlay'>
                   <h4>Eat-da-burger</h4>
                   <p>
                     <a
-                      href="https://github.com/mathigayathri2001/burger_app"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://github.com/mathigayathri2001/burger_app'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
-                      {" "}
+                      {' '}
                       <FaGithub />
-                      Github{" "}
+                      Github{' '}
                     </a>
                   </p>
                   <p>
                     <a
-                      href="https://whispering-beyond-14560.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href='https://whispering-beyond-14560.herokuapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       ViewWebsite
                     </a>
@@ -231,7 +246,7 @@ function Project() {
       </Container>
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Project;
+export default Project
