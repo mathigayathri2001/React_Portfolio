@@ -30,9 +30,7 @@ function Project () {
             <div className='item'>
               <div className='inner'>
                 <p>
-                  The application has been designed and implemented as a
-                  fullstack JavaScript development project which utilizes
-                  MongoDB, Express, React, and Node.js (MERN).
+                The application has been designed and implemented as a fullstack web development project which utilizes MongoDB, Express, React, and Node.js (MERN)
                 </p>
                 <Projects
                   imageURL={handyman}
