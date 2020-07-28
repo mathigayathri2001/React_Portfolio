@@ -2,7 +2,6 @@ import React from 'react'
 import '../App.css'
 import Links from '../components/Links'
 import Container from '../components/Container'
-import { FaGithub } from 'react-icons/fa'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
@@ -35,30 +34,13 @@ function Project () {
                   fullstack JavaScript development project which utilizes
                   MongoDB, Express, React, and Node.js (MERN).
                 </p>
-                <Projects imageURL={handyman} alternate='handyman'></Projects>
-                <div className='overlay'>
-                  <h4>U-Break-We-Fix</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/U-break-WE-fix'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://still-depths-30514.herokuapp.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
+                <Projects
+                  imageURL={handyman}
+                  alternate='handyman'
+                  title='U-Break-We-Fix'
+                  linkGithub='https://github.com/mathigayathri2001/U-break-WE-fix'
+                  linkDeployed='https://still-depths-30514.herokuapp.com/'
+                ></Projects>
               </div>
             </div>
             <div className='item'>
@@ -71,30 +53,10 @@ function Project () {
                 <Projects
                   imageURL={spamcalltracker}
                   alternate='spamcalltracker'
+                  title='spamcalltracker'
+                  linkGithub='https://github.com/mathigayathri2001/Group-Project2'
+                  linkDeployed='https://spamnumbertracker.herokuapp.com/'
                 ></Projects>
-                <div className='overlay'>
-                  <h4>spamcalltracker</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/Group-Project2'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://spamnumbertracker.herokuapp.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -110,30 +72,10 @@ function Project () {
                 <Projects
                   imageURL={mealprepbuddy}
                   alternate='mealprepbuddy'
+                  title='MealPreapBuddy'
+                  linkGithub='https://github.com/mathigayathri2001/Project-1'
+                  linkDeployed='https://petertyliu.github.io/Project-1/'
                 ></Projects>
-                <div className='overlay'>
-                  <h4>MealPreapBuddy</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/Project-1'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://petertyliu.github.io/Project-1/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -147,30 +89,10 @@ function Project () {
                 <Projects
                   imageURL={googleBooks}
                   alternate='googleBooks'
+                  title='Google book search'
+                  linkGithub='https://github.com/mathigayathri2001/Google_books'
+                  linkDeployed='https://protected-bayou-45309.herokuapp.com/'
                 ></Projects>
-                <div className='overlay'>
-                  <h4>Google book search</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/Google_books'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://protected-bayou-45309.herokuapp.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
             <div className='item'>
@@ -180,30 +102,13 @@ function Project () {
                   Management System for an employee database. It allows users to
                   view, add, update and delete employees, roles and departments.
                 </p>
-                <Projects imageURL={employee} alternate='employee'></Projects>
-                <div className='overlay'>
-                  <h4>Employee Tracker</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/Employee_tracker'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
+                <Projects
+                  imageURL={employee}
+                  alternate='employee'
+                  title='Google book search'
+                  linkGithub='https://github.com/mathigayathri2001/Employee_tracker'
+                  linkDeployed='https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view'
+                ></Projects>
               </div>
             </div>
             <div className='item'>
@@ -214,30 +119,13 @@ function Project () {
                   application uses Express, Express-Handlebars, MySQL2,
                   HTML,Javascript, Node.js and deployed in Heroku.
                 </p>
-                <Projects imageURL={burger} alternate='burger'></Projects>
-                <div className='overlay'>
-                  <h4>Eat-da-burger</h4>
-                  <p>
-                    <a
-                      href='https://github.com/mathigayathri2001/burger_app'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {' '}
-                      <FaGithub />
-                      Github{' '}
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href='https://whispering-beyond-14560.herokuapp.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      ViewWebsite
-                    </a>
-                  </p>
-                </div>
+                <Projects
+                  imageURL={burger}
+                  alternate='burger'
+                  title='Eat-da-burger'
+                  linkGithub='https://github.com/mathigayathri2001/burger_app'
+                  linkDeployed='https://whispering-beyond-14560.herokuapp.com/'
+                ></Projects>
               </div>
             </div>
           </div>

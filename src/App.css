@@ -234,9 +234,10 @@ span{
   
 }
 
-.item a {
+.item button {
   color: #2a94c5;
   font-size: 20px;
+  font-weight: bold;
 }
 
  .portfolio-gallery .item:hover .overlay{
