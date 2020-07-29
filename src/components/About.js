@@ -33,9 +33,9 @@ function About() {
                       <p className=" intro ">
                         My name is Gayathiri Ramamoorthy and I am an Ottawa based Full Stack Developer.
                         I completed Bachelor degree in Commerce. Working as
-                        a self employed accounting clerk. I am currently pursing
+                        a self employed accounting clerk. Accomplished
                         Bootcamp Full Stack Web Developer Certificate course in
-                        Carleton University. I am learning valuable programming
+                        Carleton University. I have learnt valuable programming
                         skills in full stack Web development technology, aquired
                         skills to plan, track, manage projects in agile
                         development environment and deploy applications.{" "}
@@ -61,11 +61,12 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <Contact />
+                {/* <Contact /> */}
               </div>
             </div>
           </div>
         </div>
+        <Contact />
       </Container>
       <Footer />
     </div>

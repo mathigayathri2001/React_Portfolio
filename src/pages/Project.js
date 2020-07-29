@@ -22,7 +22,7 @@ function Project () {
       <Container>
         <div id='projects'>
           <div className=' p-5 text-white'>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
           </div>
         </div>
         <div className='row'>

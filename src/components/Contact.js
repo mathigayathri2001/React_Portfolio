@@ -6,7 +6,7 @@ function Contact (){
         <div>
             <div id="contact">
                 <div className="-card-footer ">
-                  <h4>Contact</h4>
+                  <h3>Contact</h3>
                   <div className="details">
                   <FaPhone />
                   <span className= "number">613-863-4831</span>
