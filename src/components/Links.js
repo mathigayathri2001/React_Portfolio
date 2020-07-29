@@ -20,7 +20,7 @@ function Links() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/gayathiri-ramamoorthy-72885359/"
+          href="https://www.linkedin.com/in/gayathiri-ramamoorthy/"
           target="_blank"
           rel="noopener noreferrer"
         >
