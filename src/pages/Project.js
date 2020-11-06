@@ -89,7 +89,7 @@ function Project () {
                   alternate='googleBooks'
                   title='Google book search'
                   linkGithub='https://github.com/mathigayathri2001/Google_books'
-                  linkDeployed='https://protected-bayou-45309.herokuapp.com/'
+                  linkDeployed='https://google-booksearch1981.herokuapp.com/'
                 ></Projects>
               </div>
             </div>
@@ -103,7 +103,7 @@ function Project () {
                 <Projects
                   imageURL={employee}
                   alternate='employee'
-                  title='Google book search'
+                  title='Employee Tracker'
                   linkGithub='https://github.com/mathigayathri2001/Employee_tracker'
                   linkDeployed='https://drive.google.com/file/d/1ObEFFfQO9BYEKuOXRZV-Lo2fbmQaQfYA/view'
                 ></Projects>
